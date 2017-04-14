@@ -1,4 +1,7 @@
-## Démarrer un nouveau projet.
+## Projet test de création d'une landing page
 
-1. Forkez le repo
-1. Renommez-le puis clonez-le sur votre ordinateur
+Nom du projet : Digireceipt
+Porteur du projet : Michaël Saifoudine
+
+Boilerplate utilisé : Le Wagon
+Technologies : Bootstrap, HTML, CSS, ERB, Middleman and jQuery

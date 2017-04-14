@@ -4,7 +4,7 @@ $(function(){
   $(window).scroll(function(e){
     if ($(this).scrollTop() > 0) {
       $(".navbar").css({
-        "background": "rgba(0, 0, 0, 0.7)",
+        "background": "rgba(255, 255, 255, 1)",
         "box-shadow": "0 0 2px black"
       });
     }
