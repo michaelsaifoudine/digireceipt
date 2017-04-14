@@ -1,10 +1,7 @@
 #banner {
   background-color: $blue;
   color: white;
-  padding: 150px 0;
-  background-size: cover;
-  height: 650px;
-  padding-left: 50px;
+  padding: 150px 0px 0px 0px;
 
   h1 {
     font-size: 50px;
@@ -12,15 +9,14 @@
     font-family: $circular-bold;
   }
   p {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 100;
     font-family: $circular-book;
   }
-}
-
-#mockup {
-  width: 300px;
-  height: relative;
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .card{
