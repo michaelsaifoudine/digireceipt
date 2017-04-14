@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Digireceipt - Tickets de caisse, reçus, factures et notes de frais numérisés</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link href="stylesheets/all.css" rel="stylesheet" />
+    <link href="stylesheets/all.css" rel="stylesheet" />
+    <script src="javascripts/all.js"></script>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="../favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="../favicon/manifest.json">
+    <link rel="mask-icon" href="../favicon/safari-pinned-tab.svg" color="#0062df">
+    <link rel="shortcut icon" href="../favicon/favicon.ico">
+    <meta name="msapplication-config" content="../favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link href="stylesheets/components/hover.scss" rel="stylesheet" media="all">
+
+  </head>
+
+  <body class="index">
+
+    <nav class="navbar navbar-default navbar-fixed-top navbar-wagon" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+<a class="navbar-brand" href="./">            <img src="images/logo.svg" />
+</a>        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+<a href="#">                Comment ça marche ?
+</a>            </li>
+            <li>
+<a href="#">                Fonctionnalités
+</a>            </li>
+            <li>
+<a href="#">                F.A.Q.
+</a>            </li>
+            <li>
+<a href="#">                <i class="fa fa-envelope-o"></i> Contact
+</a>            </li>
+            <li><a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn">ÊTRE INFORMÉ</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div id="banner">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <img src="images/mockup.png" />
+      </div>
+      <div class="col-xs-12 col-sm-8 fade-and-slide">
+        <h1>Ne perdez plus jamais vos tickets de caisse</h1>
+        <br>
+        <p>Digireceipt est la nouvelle manière de collecter et sauvegarder ses tickets de caisse, reçus de carte et factures directement depuis son smartphone.</p>
+        <br>
+        <br>
+        <a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn-medium hvr-grow-rotate">ÊTRE INFORMÉ DU LANCEMENT</a><br><br>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bg-white padded" id="description">
+  <div class="text-center">
+    <h1>Comment ça marche ?</h1>
+  </div>
+  <div class="container text-center" id="features">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card" data-sr="enter bottom and scale up 20% over 1s">
+          <img src="images/paper.svg" />
+          <h2>Téléchargez l'appli</h2>
+          <p>Don't change your habits, write with a pen <strong>on paper notebooks</strong></p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card" data-sr="enter bottom and scale up 20% over 1.5s">
+          <img src="images/computer.svg" />
+          <h2>Faîtes vos courses</h2>
+          <p>Stylus instantaneously copy your text on your computer, <strong>in real-time</strong></p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card" data-sr="enter bottom and scale up 20% over 2s">
+          <img src="images/analytics.svg" />
+          <h2>Scannez votre Digicode</h2>
+          <p>Get feedbacks on the way you write, <strong>your favorite words, your frequent mistakes</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="padded container text-center">
+    <p>Leave us your mail and get stylus news</p>
+    <form class="form-inline">
+      <input type="email" placeholder="bob@gmail.com" class="form-control">
+      <input type="submit" value="Subscribe" class="btn btn-primary btn-bordered btn-bordered-primary">
+    </form>
+  </div> -->
+</div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="subscribe-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Soyez notifié par email du lancement de l'appli</h4>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <div class="form-group">
+                <label for="email">Votre email</label>
+                <input type="email" id="email" class="form-control" placeholder="john.durant@gmail.com">
+              </div>
+              <div class="form-group">
+                <label for="telephone">Votre Prénom et NOM</label>
+                <input type="text" id="telephone" class="form-control" placeholder="John Durant">
+              </div>
+              <input type="submit" value="Confirmer" class="btn btn-danger btn-rounded btn-lg">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-4">
+            <ul class="list-inline">
+              <li><a href="https://linkedin.com/in/michaelsaifoudine" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-xs-8 text-right">
+            <p>Website designed by Michael Saifoudine</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
