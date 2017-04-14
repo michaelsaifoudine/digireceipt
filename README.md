@@ -1,7 +1,7 @@
-## Projet test de création d'une landing page
+## Projet Test - Création d'une landing page
 
-Nom du projet : Digireceipt
-Porteur du projet : Michaël Saifoudine
+<p>Nom du projet : <strong>Digireceipt</strong></p>
+<p>Porteur du projet : <strong>Michaël Saifoudine</strong></p>
 
-Boilerplate utilisé : Le Wagon
-Technologies : Bootstrap, HTML, CSS, ERB, Middleman and jQuery
+<p>Boilerplate utilisé : <strong>Le Wagon</strong></p>
+<p>Technologies : <strong>Bootstrap, HTML, CSS, ERB, Middleman and jQuery</strong></p>
