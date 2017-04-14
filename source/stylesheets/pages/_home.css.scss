@@ -7,15 +7,22 @@
   padding-left: 50px;
 
   h1 {
-    font-size: 70px;
+    font-size: 50px;
     color: white;
-    font-family: $circular-book;
+    font-family: $circular-bold;
   }
   p {
     font-size: 25px;
     font-weight: 100;
+    font-family: $circular-book;
   }
 }
+
+#mockup {
+  width: 300px;
+  height: relative;
+}
+
 .card{
   padding: 10px;
   font-weight: 300;

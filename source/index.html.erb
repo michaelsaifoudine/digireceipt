@@ -4,58 +4,59 @@ title: Digireceipt - Tickets de caisse, reçus, factures et notes de frais numé
 
 <div id="banner" class="smooth-scrollable">
 
-  <div class="fade-and-slide text-center">
-    <h1>Ne perdez plus jamais vos tickets de caisse</h1>
-    <br>
-    <p>Digireceipt est la nouvelle manière de collecter et sauvegarder ses tickets de caisse,
-    <br>reçus de carte et factures directement depuis son smartphone.</p>
-    <br>
-    <br>
-    <a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn-medium">ÊTRE INFORMÉ DU LANCEMENT</a>
+  <div class="container fade-and-slide">
+    <div class="row">
+      <div class="col-sm-6" id="mockup">
+        <%= image_tag "mockup.png"%>
+      </div>
+      <div class="col-sm-6">
+        <h1>Ne perdez plus jamais vos tickets de caisse</h1>
+        <br>
+        <p>Digireceipt est la nouvelle manière de collecter et sauvegarder ses tickets de caisse,
+        <br>reçus de carte et factures directement depuis son smartphone.</p>
+        <br>
+        <br>
+        <a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn-medium hvr-grow-rotate">ÊTRE INFORMÉ DU LANCEMENT</a>
+      </div>
+    </div>
   </div>
-
-  <a href="#description"><i class="fa fa-angle-down fa-6 pulse scroll-btn"></i></a>
 </div>
 
 <div class="bg-white padded" id="description">
+  <div class="text-center">
+    <h1>Comment ça marche ?</h1>
+  </div>
   <div class="container text-center" id="features">
     <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="card" data-sr="enter bottom and scale up 20% over 1s">
           <%= image_tag "paper.svg" %>
-          <h2>Natural writing</h2>
+          <h2>Téléchargez l'appli</h2>
           <p>Don't change your habits, write with a pen <strong>on paper notebooks</strong></p>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="card" data-sr="enter bottom and scale up 20% over 1.5s">
           <%= image_tag "computer.svg" %>
-          <h2>Sync. copy</h2>
+          <h2>Faîtes vos courses</h2>
           <p>Stylus instantaneously copy your text on your computer, <strong>in real-time</strong></p>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="card" data-sr="enter bottom and scale up 20% over 2s">
           <%= image_tag "analytics.svg" %>
-          <h2>Analytics</h2>
+          <h2>Scannez votre Digicode</h2>
           <p>Get feedbacks on the way you write, <strong>your favorite words, your frequent mistakes</strong></p>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-3">
-        <div class="card" data-sr="enter bottom and scale up 20% over 2.5s">
-          <%= image_tag "data.svg" %>
-          <h2>Storing your texts</h2>
-          <p>Every line writen with your stylus is stored in the cloud, so that <strong>it's never lost</strong></p>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="padded container text-center">
+  <!-- <div class="padded container text-center">
     <p>Leave us your mail and get stylus news</p>
     <form class="form-inline">
       <input type="email" placeholder="bob@gmail.com" class="form-control">
       <input type="submit" value="Subscribe" class="btn btn-primary btn-bordered btn-bordered-primary">
     </form>
-  </div>
+  </div> -->
 </div>
