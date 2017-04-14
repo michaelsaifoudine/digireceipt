@@ -14,6 +14,17 @@
     <%= stylesheet_link_tag "all" %>
     <%= stylesheet_link_tag "all" %>
     <%= javascript_include_tag  "all" %>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="../favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="../favicon/manifest.json">
+    <link rel="mask-icon" href="../favicon/safari-pinned-tab.svg" color="#0062df">
+    <link rel="shortcut icon" href="../favicon/favicon.ico">
+    <meta name="msapplication-config" content="../favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
   </head>
 
   <body class="<%= page_classes %>">
@@ -38,19 +49,26 @@
 
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <% link_to "/pricing.html" do %>
-                <i class="fa fa-dollar"></i> Pricing
+              <% link_to "#" do %>
+                Comment ça marche ?
               <% end %>
             </li>
             <li>
-              <% link_to "/contact.html" do %>
+              <% link_to "#" do %>
+                Fonctionnalités
+              <% end %>
+            </li>
+            <li>
+              <% link_to "#" do %>
+                F.A.Q.
+              <% end %>
+            </li>
+            <li>
+              <% link_to "#" do %>
                 <i class="fa fa-envelope-o"></i> Contact
               <% end %>
             </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Follow-us <span class="caret"></span></a>
-            </li>
-            <li><a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn">SUBSCRIBE TO NEWSLETTER</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn">ÊTRE INFORMÉ</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -64,19 +82,19 @@
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">Get notified of the launch</h4>
+            <h4 class="modal-title" id="myModalLabel">Soyez notifié par email du lancement de l'appli</h4>
           </div>
           <div class="modal-body">
             <form action="">
               <div class="form-group">
-                <label for="email">Your email</label>
+                <label for="email">Votre email</label>
                 <input type="email" id="email" class="form-control" placeholder="john.durant@gmail.com">
               </div>
               <div class="form-group">
-                <label for="telephone">Your name</label>
+                <label for="telephone">Votre Prénom et NOM</label>
                 <input type="text" id="telephone" class="form-control" placeholder="John Durant">
               </div>
-              <input type="submit" value="Join the list" class="btn btn-danger btn-rounded btn-lg">
+              <input type="submit" value="Confirmer" class="btn btn-danger btn-rounded btn-lg">
             </form>
           </div>
         </div>
